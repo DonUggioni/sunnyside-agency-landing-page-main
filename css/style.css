@@ -58,7 +58,7 @@ img {
   padding: 5rem 4rem;
   background-color: transparent;
 
-  margin-bottom: 10rem;
+  margin-bottom: 5rem;
 }
 
 .nav__links {
@@ -99,7 +99,7 @@ img {
   background-size: cover;
   background-position: bottom;
   background-repeat: no-repeat;
-  height: 100vh;
+  height: 80rem;
 }
 
 .header__content {
@@ -241,6 +241,136 @@ img {
 .egg__img-mobile,
 .glass__img-mobile {
   display: none;
+}
+
+/* SERVICES SECTION */
+.services__header {
+  font-size: 2.8rem;
+  font-family: var(--fraunces);
+  font-weight: 900;
+  margin-bottom: 2.8rem;
+}
+
+.services__description {
+  font-size: 1.6rem;
+  font-family: var(--barlow);
+  line-height: 1.5;
+}
+
+/* Graphic design */
+
+.services__wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  width: 100%;
+}
+.graphic__design {
+  position: relative;
+}
+
+.graphic__wrapper {
+  position: absolute;
+  width: 36rem;
+  text-align: center;
+  bottom: 6rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+.graphic__wrapper h3 {
+  color: var(--primary-desaturated-cyan);
+}
+
+.graphic__wrapper p {
+  color: var(--primary-moderate-cyan);
+}
+
+.graphic__img-desktop {
+  width: 100%;
+}
+
+.graphic__img-mobile {
+  display: none;
+}
+
+/* Photography */
+.photography {
+  position: relative;
+}
+
+.photography__wrapper {
+  position: absolute;
+  width: 34rem;
+  text-align: center;
+  bottom: 6rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+.photography__wrapper h3,
+.photography__wrapper p {
+  color: var(--primary-dark-blue);
+}
+
+.photography__img-desktop {
+  width: 100%;
+}
+
+.photography__img-mobile {
+  display: none;
+}
+
+/* TESTIMONIALS */
+.testimonials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16rem 6rem;
+}
+
+.testimonials__header {
+  font-size: 2rem;
+  font-family: var(--fraunces);
+  font-weight: 900;
+  color: var(--greyish-blue);
+  letter-spacing: 0.5rem;
+  text-transform: uppercase;
+  margin-bottom: 8rem;
+}
+
+.testimonials__wrapper {
+  display: flex;
+  gap: 3rem;
+}
+
+.testimonial {
+  max-width: 33rem;
+  text-align: center;
+}
+
+.testimonial__text {
+  color: var(--very-dark-greyish-blue);
+  margin-bottom: 6.8rem;
+  line-height: 1.5;
+}
+
+.costumer__img {
+  width: 72px;
+  margin: 0 auto 5.8rem;
+  border-radius: 50px;
+}
+
+.testimonial__name {
+  font-family: var(--fraunces);
+  color: var(--dark-desaturated-blue);
+  margin-bottom: 1rem;
+}
+
+.testimonial__role {
+  font-size: 1.4rem;
+  color: var(--greyish-blue);
 }
 
 /* Attribution */
