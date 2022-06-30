@@ -50,6 +50,12 @@ img {
   width: 17rem;
 }
 
+.mobile__menu--icon {
+  display: none;
+  font-size: 2.8rem;
+  color: var(--white);
+}
+
 .nav {
   display: flex;
   justify-content: space-between;
@@ -97,9 +103,9 @@ img {
 .header {
   background-image: url('../images/desktop/image-header.jpg');
   background-size: cover;
-  background-position: bottom;
+  background-position: bottom center;
   background-repeat: no-repeat;
-  height: 80rem;
+  height: 100vh;
 }
 
 .header__content {
@@ -149,7 +155,9 @@ img {
 
 .about__description-container {
   max-width: 42.5rem;
+  width: 100%;
   margin: 0 auto;
+  padding: 2.4rem;
 }
 
 .about__header {

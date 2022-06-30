@@ -12,6 +12,7 @@
       href="./images/favicon-32x32.png"
     />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
 
     <script
       defer
@@ -25,7 +26,10 @@
     <header class="header">
       <nav class="nav">
         <img src="./images/logo.svg" alt="Sunnyside logo" class="logo" />
-        <ul class="nav__links">
+        <div class="mobile__menu">
+          <i class="fa-solid fa-burger mobile__menu--icon"></i>
+        </div>
+        <ul class="nav__links nav__links--hidden">
           <li class="nav__item">
             <a href="#about" class="nav__link">About</a>
           </li>
