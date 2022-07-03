@@ -169,6 +169,11 @@
     padding: 6.4rem 2.4rem;
   }
 
+  .graphic__wrapper,
+  .photography__wrapper {
+    padding: 0 2.4rem;
+  }
+
   .about__header {
     font-size: 3.2rem;
   }
